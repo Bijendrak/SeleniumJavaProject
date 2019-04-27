@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num attn">3</td><td class="num attn">2</td><td class="num">30,793</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">listners.TestNGListnersDemo</td><td><a href="#m0">test2</a></td><td rowspan="1">1556352450481</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">listners.TestNGListnersDemo2_Selenium</td><td><a href="#m1">test2</a></td><td rowspan="1">1556352450512</td><td rowspan="1">30699</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">listners.TestNGListnersDemo</td><td><a href="#m2">test3</a></td><td rowspan="1">1556352450497</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">listners.TestNGListnersDemo2_Multipleclasses</td><td><a href="#m3">test6</a></td><td rowspan="1">1556352450512</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">listners.TestNGListnersDemo2_Selenium</td><td><a href="#m4">test3</a></td><td rowspan="1">1556352481227</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">listners.TestNGListnersDemo</td><td><a href="#m5">test1</a></td><td rowspan="1">1556352450466</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="2">listners.TestNGListnersDemo2_Multipleclasses</td><td><a href="#m6">test4</a></td><td rowspan="1">1556352450497</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m7">test5</a></td><td rowspan="1">1556352450497</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="1">listners.TestNGListnersDemo2_Selenium</td><td><a href="#m8">test1</a></td><td rowspan="1">1556352450512</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">listners.TestNGListnersDemo#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at listners.TestNGListnersDemo.test2(TestNGListnersDemo.java:19)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">listners.TestNGListnersDemo2_Selenium#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=#app-router-outlet &gt; app-user-root &gt; app-snoopstar-auth &gt; section &gt; div.col-xs-12.cp.mt-50 &gt; div.col-xs-12.col-md-6.col-lg-5.offset-lg-1.cp.ng-trigger.ng-trigger-slide &gt; app-snoopstar-login &gt; div &gt; form &gt; div:nth-child(2) &gt; input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BIJENDRA&apos;, ip: &apos;192.168.43.47&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at listners.TestNGListnersDemo2_Selenium.test2(TestNGListnersDemo2_Selenium.java:32)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">listners.TestNGListnersDemo#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: This is skiped
+	at listners.TestNGListnersDemo.test3(TestNGListnersDemo.java:24)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">listners.TestNGListnersDemo2_Multipleclasses#test6</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: This is skiped
+	at listners.TestNGListnersDemo2_Multipleclasses.test6(TestNGListnersDemo2_Multipleclasses.java:22)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">listners.TestNGListnersDemo2_Selenium#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: This is skiped
+	at listners.TestNGListnersDemo2_Selenium.test3(TestNGListnersDemo2_Selenium.java:39)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">listners.TestNGListnersDemo#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">listners.TestNGListnersDemo2_Multipleclasses#test4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">listners.TestNGListnersDemo2_Multipleclasses#test5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">listners.TestNGListnersDemo2_Selenium#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
